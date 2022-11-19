@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
+
+* {
+    font-family: 'Nanum Gothic Coding', monospace;
+    transform : rotate(0.02deg);
+}
+
+div {
+    box-sizing : border-box;
+}
+
+body {
+    margin : 0;
+    background-color:white;
+}
+
+html {
+    line-height : 1.15; /*기본 행간 높이*/
+}
+
+/* Navbar */
+.nav__div--container {
+    border-bottom: 0.01ch solid black;
+    color:black;
+    font-weight: bold;
+    display : flex;
+    justify-content : center;  /* 좌우정렬 */
+    align-items : center;  /* 상하정렬 */
+}
+
+.nav__div--item {
+    margin:10px 2% 10px 2%;
+}
+
+.nav__div--logo {
+    font-size: 30px;
+}
+
+.nav__div--sublogo {
+    font-size: 13px;
+}
+
+/* Body Container */
+.page__div--container{
+    margin: auto;
+    width:80%;
+    max-width: 1200px;
+}
+
+.contents__div--container {
+    display: flex;
+    justify-content: center; /* 좌우정렬 */
+    align-items: center; /* 상하정렬 */
+    flex-wrap:wrap; /* 폭이 넘치는 요소 wrap 처리 */
+}
+
+.converter__div--container {
+    margin:auto;
+    margin: 30px auto 0px auto;
+    flex: 0 0 46%;
+}
+
+.converter__div--container .form-control {
+    height: 500px;
+    resize: none;
+}
+
+@media screen and (max-width: 768px) {
+    .nav__div--logo {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .nav__div--sublogo {
+        font-size: 8px;
+    }
+    .nav__div--item {
+        font-size: 13px;
+        margin:10px 2% 10px 2%;
+    }
+    .page__div--container{
+        margin: auto;
+        width:95%;
+        /* min-width: 485px; */
+    }
+    .converter__div--container {
+        flex: 0 2 90%;
+    }
+    .converter__div--container .form-control {
+        height: 250px;
+        resize: none;
+    }
+}
