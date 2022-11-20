@@ -1,4 +1,5 @@
 # str2unicode-translator
+[![image](https://user-images.githubusercontent.com/66377511/202885738-3a045696-296f-4f47-9cf5-0bc82242b385.png)](https://geongupark.github.io/str2unicode-translator/)
 
 ![html](https://img.shields.io/badge/HTML-5-red)
 ![js](https://img.shields.io/badge/jQuery-3.6.1-yellow)
