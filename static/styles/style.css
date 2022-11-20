@@ -32,6 +32,15 @@ html {
     margin:10px 2% 10px 2%;
 }
 
+.nav__div--item a {
+    color : black;
+    text-decoration: none;
+}
+
+.nav__div--item a:hover {
+    color:red;
+}
+
 .nav__div--logo {
     font-size: 30px;
 }
@@ -80,7 +89,6 @@ html {
     .page__div--container{
         margin: auto;
         width:95%;
-        /* min-width: 485px; */
     }
     .converter__div--container {
         flex: 0 2 90%;
