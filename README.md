@@ -40,5 +40,9 @@ $(function(){
 4. `navbar`와 `converter` 모두 `display:flex;`를 사용해서 [배치](https://developer.mozilla.org/ko/docs/Web/CSS/flex)함
     * navbar의 경우 전체적으로 펴지도록 하는데 사용
     * converter의 경우 화면 사이즈에 따라 내부 item들의 width 비율 달라지도록 함
+
+## Reference
+* [unicode ↔ string](https://chobokkiri.tistory.com/37)
+
 ## License
 * Distributed under the terms of the MIT license, `str2unicode-translator` is free and open source software.
